@@ -18,7 +18,7 @@ public class HomePageTests extends TestBase {
 	{
 		String actualTitle = homePG
 								.getTitle();
-		String expectedTitle= "MeritPros Test1 Site | E-Commerce Test Web Site for MeritPros Students | Home Page";
+		String expectedTitle= "MeritPros Test1 Site | E-Commerce Test Web Site for MeritPros Students | Home Page_FAIL_";
 		
 		Assert.assertEquals(actualTitle, expectedTitle, "Page title is not correct");
 	}
