@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="RegressionSuite New234" >
-  <test name="MyAccount Module" >
+  <test name="MyAccount Module" enabled="false">
     <classes>
        <class name="com.meritpros.tests.MyAccountPageTests" /> 
     </classes>
@@ -11,7 +11,7 @@
        <class name="com.meritpros.tests.HomePageTests" /> 
     </classes>
   </test>
-  <test name="Shop Module" >
+  <test name="Shop Module" enabled="false">
     <classes>
        <class name="com.meritpros.tests.ShopPageTests" /> 
     </classes>
