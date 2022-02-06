@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite New234" >
+  <test name="MyAccount Module" >
+    <classes>
+       <class name="com.meritpros.tests.MyAccountPageTests" /> 
+    </classes>
+  </test>
+  <test name="Home Module" >
+    <classes>
+       <class name="com.meritpros.tests.HomePageTests" /> 
+    </classes>
+  </test>
+  <test name="Shop Module" >
+    <classes>
+       <class name="com.meritpros.tests.ShopPageTests" /> 
+    </classes>
+  </test>
+</suite>
